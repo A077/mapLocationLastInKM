@@ -12,8 +12,8 @@ app.use(express.static(path.join(__dirname, "../app/dist")));
 app.use(bodyParser.json())
 app.use("/api", schoolController);
 
-app.listen(7777, function () {
-    console.log("Started listening on port", 7777);
+app.listen(5000, function () {
+    console.log("Started listening on port", 5000);
 });
 
 mongoose.connect("mongodb://localhost/schoolfinder");
