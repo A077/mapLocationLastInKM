@@ -16,4 +16,4 @@ app.listen(5000, function () {
     console.log("Started listening on port", 5000);
 });
 
-mongoose.connect("mongodb://localhost/schoolfinder");
+mongoose.connect("mongodb://heroku_qsvrvmvj:gr51g5j6j4qsdt111ckkj36d04@ds111479.mlab.com:11479/heroku_qsvrvmvj");
